@@ -103,6 +103,7 @@ public class formpelanggan extends javax.swing.JFrame {
         reg = new javax.swing.JRadioButton();
         jLabel9 = new javax.swing.JLabel();
         nama1 = new javax.swing.JTextField();
+        diskonn = new javax.swing.JLabel();
         pro = new javax.swing.JButton();
         ulang = new javax.swing.JButton();
         keluar = new javax.swing.JButton();
@@ -214,6 +215,9 @@ public class formpelanggan extends javax.swing.JFrame {
         jPanel3.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(194, 109, -1, -1));
         jPanel3.add(nama1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 37, 100, -1));
 
+        diskonn.setText("0");
+        jPanel3.add(diskonn, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 40, -1, -1));
+
         pro.setText("Proses");
         pro.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -255,7 +259,7 @@ public class formpelanggan extends javax.swing.JFrame {
                         .addComponent(ulang)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(keluar)))
-                .addContainerGap(40, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -268,7 +272,7 @@ public class formpelanggan extends javax.swing.JFrame {
                     .addComponent(pro)
                     .addComponent(ulang)
                     .addComponent(keluar))
-                .addContainerGap(27, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -417,6 +421,7 @@ public class formpelanggan extends javax.swing.JFrame {
     private javax.swing.JTextField berat;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JSlider diskon;
+    private javax.swing.JLabel diskonn;
     private javax.swing.JRadioButton expr;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
